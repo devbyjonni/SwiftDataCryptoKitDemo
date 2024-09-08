@@ -17,6 +17,7 @@
 		FABE6B352C8E5F2C002F0F87 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FABE6B342C8E5F2C002F0F87 /* README.md */; };
 		FABE6B382C8E60C2002F0F87 /* SymmetricKey+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE6B372C8E60C2002F0F87 /* SymmetricKey+Extensions.swift */; };
 		FABE6B3B2C8E626C002F0F87 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE6B3A2C8E626C002F0F87 /* Transaction.swift */; };
+		FABE6B3E2C8E6313002F0F87 /* TransactionTransferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE6B3D2C8E6313002F0F87 /* TransactionTransferable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		FABE6B342C8E5F2C002F0F87 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FABE6B372C8E60C2002F0F87 /* SymmetricKey+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymmetricKey+Extensions.swift"; sourceTree = "<group>"; };
 		FABE6B3A2C8E626C002F0F87 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		FABE6B3D2C8E6313002F0F87 /* TransactionTransferable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTransferable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				FABE6B0A2C8E5EA8002F0F87 /* SwiftDataCryptoKitDemoApp.swift */,
+				FABE6B3F2C8E6323002F0F87 /* Transfer */,
 				FABE6B3C2C8E6271002F0F87 /* Model */,
 				FABE6B392C8E60C6002F0F87 /* Extensions */,
 				FABE6B362C8E5F80002F0F87 /* View */,
@@ -158,6 +161,14 @@
 				FABE6B3A2C8E626C002F0F87 /* Transaction.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FABE6B3F2C8E6323002F0F87 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				FABE6B3D2C8E6313002F0F87 /* TransactionTransferable.swift */,
+			);
+			path = Transfer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 				FABE6B382C8E60C2002F0F87 /* SymmetricKey+Extensions.swift in Sources */,
 				FABE6B3B2C8E626C002F0F87 /* Transaction.swift in Sources */,
 				FABE6B0B2C8E5EA8002F0F87 /* SwiftDataCryptoKitDemoApp.swift in Sources */,
+				FABE6B3E2C8E6313002F0F87 /* TransactionTransferable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
