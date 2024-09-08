@@ -18,6 +18,7 @@
 		FABE6B382C8E60C2002F0F87 /* SymmetricKey+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE6B372C8E60C2002F0F87 /* SymmetricKey+Extensions.swift */; };
 		FABE6B3B2C8E626C002F0F87 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE6B3A2C8E626C002F0F87 /* Transaction.swift */; };
 		FABE6B3E2C8E6313002F0F87 /* TransactionTransferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE6B3D2C8E6313002F0F87 /* TransactionTransferable.swift */; };
+		FABE6B412C8E6465002F0F87 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE6B402C8E6465002F0F87 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		FABE6B372C8E60C2002F0F87 /* SymmetricKey+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymmetricKey+Extensions.swift"; sourceTree = "<group>"; };
 		FABE6B3A2C8E626C002F0F87 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		FABE6B3D2C8E6313002F0F87 /* TransactionTransferable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTransferable.swift; sourceTree = "<group>"; };
+		FABE6B402C8E6465002F0F87 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				FABE6B0A2C8E5EA8002F0F87 /* SwiftDataCryptoKitDemoApp.swift */,
+				FABE6B422C8E646D002F0F87 /* DataManager */,
 				FABE6B3F2C8E6323002F0F87 /* Transfer */,
 				FABE6B3C2C8E6271002F0F87 /* Model */,
 				FABE6B392C8E60C6002F0F87 /* Extensions */,
@@ -169,6 +172,14 @@
 				FABE6B3D2C8E6313002F0F87 /* TransactionTransferable.swift */,
 			);
 			path = Transfer;
+			sourceTree = "<group>";
+		};
+		FABE6B422C8E646D002F0F87 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				FABE6B402C8E6465002F0F87 /* DataManager.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABE6B0D2C8E5EA8002F0F87 /* HomeView.swift in Sources */,
+				FABE6B412C8E6465002F0F87 /* DataManager.swift in Sources */,
 				FABE6B382C8E60C2002F0F87 /* SymmetricKey+Extensions.swift in Sources */,
 				FABE6B3B2C8E626C002F0F87 /* Transaction.swift in Sources */,
 				FABE6B0B2C8E5EA8002F0F87 /* SwiftDataCryptoKitDemoApp.swift in Sources */,
