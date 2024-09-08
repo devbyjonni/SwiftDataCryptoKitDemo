@@ -106,11 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				FABE6B0A2C8E5EA8002F0F87 /* SwiftDataCryptoKitDemoApp.swift */,
+				FABE6B362C8E5F80002F0F87 /* View */,
 				FABE6B422C8E646D002F0F87 /* DataManager */,
 				FABE6B3F2C8E6323002F0F87 /* Transfer */,
 				FABE6B3C2C8E6271002F0F87 /* Model */,
 				FABE6B392C8E60C6002F0F87 /* Extensions */,
-				FABE6B362C8E5F80002F0F87 /* View */,
 				FABE6B0E2C8E5EAA002F0F87 /* Assets.xcassets */,
 				FABE6B102C8E5EAA002F0F87 /* Preview Content */,
 			);

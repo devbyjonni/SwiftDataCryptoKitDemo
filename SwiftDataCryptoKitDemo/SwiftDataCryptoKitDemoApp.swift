@@ -12,6 +12,7 @@ struct SwiftDataCryptoKitDemoApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()
+                .modelContainer(for: Transaction.self)
         }
     }
 }
